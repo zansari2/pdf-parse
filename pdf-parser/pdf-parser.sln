@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pdf-parse", "pdf-parse\pdf-parse.csproj", "{31168568-D8A5-49E7-B007-E1CB265E1060}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pdf-parser", "pdf-parser.csproj", "{D2E76352-79B9-420A-8140-42CD0CBDD896}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{31168568-D8A5-49E7-B007-E1CB265E1060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31168568-D8A5-49E7-B007-E1CB265E1060}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31168568-D8A5-49E7-B007-E1CB265E1060}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31168568-D8A5-49E7-B007-E1CB265E1060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E76352-79B9-420A-8140-42CD0CBDD896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E76352-79B9-420A-8140-42CD0CBDD896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E76352-79B9-420A-8140-42CD0CBDD896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E76352-79B9-420A-8140-42CD0CBDD896}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {85DC7359-567B-4DB0-8122-0A0D8CE5C56D}
+		SolutionGuid = {BAC624FC-EF73-429C-9DCB-F016CE120DEE}
 	EndGlobalSection
 EndGlobal

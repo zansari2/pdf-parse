@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("pdf-parse")]
+[assembly: AssemblyTitle("pdf-parser")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("pdf-parse")]
+[assembly: AssemblyProduct("pdf-parser")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("31168568-d8a5-49e7-b007-e1cb265e1060")]
+[assembly: Guid("d2e76352-79b9-420a-8140-42cd0cbdd896")]
 
 // Version information for an assembly consists of the following four values:
 //

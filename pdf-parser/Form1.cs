@@ -25,7 +25,7 @@ namespace pdf_parser
 
         private void Swap_Click(object sender, EventArgs e)
         {
-            this.emailsTableAdapter.Fill(this.schoolDataSet.Emails);
+           
         }
     }
 }

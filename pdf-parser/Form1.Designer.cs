@@ -33,7 +33,6 @@
             this.schoolDataSet = new pdf_parser.SchoolDataSet();
             this.assignmentsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.assignmentsTableAdapter = new pdf_parser.SchoolDataSetTableAdapters.AssignmentsTableAdapter();
-            this.emailsTableAdapter = new pdf_parser.SchoolDataSetTableAdapters.EmailsTableAdapter();
             this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.classDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -124,7 +123,6 @@
         private SchoolDataSet schoolDataSet;
         private System.Windows.Forms.BindingSource assignmentsBindingSource;
         private SchoolDataSetTableAdapters.AssignmentsTableAdapter assignmentsTableAdapter;
-        private SchoolDataSetTableAdapters.EmailsTableAdapter emailsTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn classDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;

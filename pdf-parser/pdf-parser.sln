@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pdf-parser", "pdf-parser.csproj", "{D2E76352-79B9-420A-8140-42CD0CBDD896}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B777E00B-D377-482B-87A8-74B64E4301FD}"
+	ProjectSection(SolutionItems) = preProject
+		pdf\cs112.pdf = pdf\cs112.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

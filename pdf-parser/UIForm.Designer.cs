@@ -36,6 +36,7 @@
             this.emailsTableAdapter = new pdf_parser.SchoolDataSetTableAdapters.EmailsTableAdapter();
             this.Swap = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Import = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.assignmentsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.schoolDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emailsBindingSource)).BeginInit();
@@ -85,6 +86,16 @@
             this.dataGridView1.Size = new System.Drawing.Size(344, 400);
             this.dataGridView1.TabIndex = 2;
             // 
+            // Import
+            // 
+            this.Import.Location = new System.Drawing.Point(363, 41);
+            this.Import.Name = "Import";
+            this.Import.Size = new System.Drawing.Size(75, 23);
+            this.Import.TabIndex = 3;
+            this.Import.Text = "Import";
+            this.Import.UseVisualStyleBackColor = true;
+            this.Import.Click += new System.EventHandler(this.Import_Click);
+            // 
             // ApplicationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -92,6 +103,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Import);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Swap);
             this.Name = "ApplicationForm";
@@ -116,6 +128,7 @@
         private System.Windows.Forms.BindingSource emailsBindingSource;
         private SchoolDataSetTableAdapters.EmailsTableAdapter emailsTableAdapter;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button Import;
     }
 }
 

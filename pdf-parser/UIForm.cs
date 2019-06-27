@@ -6,10 +6,12 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 //Package information
 namespace pdf_parser
 {
@@ -19,6 +21,8 @@ namespace pdf_parser
         //Sql adapter and binding source for changing tables
         private SqlDataAdapter sqlDataAdapter = new SqlDataAdapter();
         private BindingSource bindingSource = new BindingSource();
+        private System.Windows.Forms.OpenFileDialog ofd = new OpenFileDialog();
+
         //Default constructor, initializes components
         public ApplicationForm()
         {
@@ -55,6 +59,14 @@ namespace pdf_parser
 
             sqlDataAdapter.Fill(table);
             bindingSource.DataSource = table;
+        }
+
+        private void Import_Click(object sender, EventArgs e)
+        {
+            ofd.ShowDialog();
+            string inpath = ofd.FileName;
+            string outpath = Path.GetFileName(inpath);
+            PdfImport.printString(inpath, @"C:\Users\zansari\Documents\GitHub\pdf-parse\pdf-parser\outPDF\"+outpath);
         }
     }
 }
